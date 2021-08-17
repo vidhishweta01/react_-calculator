@@ -35,9 +35,9 @@ To get a local copy up and running follow these simple example steps on the comm
 
 ### Shweta Srivastava
 
-_[Github](https://github.com/vidhishweta01)
+[Github](https://github.com/vidhishweta01)
 
-_[LinkedIn](http://linkedin.com/in/shweta-s-15a57070)
+[LinkedIn](http://linkedin.com/in/shweta-s-15a57070)
 
 ## Show your support ⭐️⭐️
 
