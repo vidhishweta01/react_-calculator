@@ -4,7 +4,6 @@ import styles from './buttonPanel.module.css';
 
 const Calculator = () => (
   <div className="mainCalc">
-    <input className={styles.input} type="text" placeholder="0" />
     <div className={styles.button_row}>
       <Button label="AC" />
       <Button label="+/-" />

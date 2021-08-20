@@ -1,7 +1,8 @@
 import propTypes from 'prop-types';
+import styles from './Display.module.css';
 
 const Display = ({ total }) => (
-  <h1>
+  <h1 className={styles.h1}>
     {' '}
     {total}
     {' '}
