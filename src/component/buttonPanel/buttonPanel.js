@@ -15,7 +15,7 @@ const Calculator = () => (
       <Button label="7" />
       <Button label="8" />
       <Button label="9" />
-      <Button label="*" />
+      <Button label="x" />
     </div>
     <div className={styles.button_row}>
       <Button label="4" />
