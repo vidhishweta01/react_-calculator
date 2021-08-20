@@ -1,0 +1,12 @@
+.button_row,
+.input {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.input {
+  width: 69.5%;
+  height: 40px;
+}
