@@ -1,24 +1,19 @@
 import React from 'react';
-import CalculatorTitle from './calculatorTitle';
-import OutputScreen from './outputScreen';
 import Button from './button';
 
-const Calculator = () => (
-  <div className="frame">
-    <CalculatorTitle value="Calculator" />
-    <div className="mainCalc">
-      <OutputScreen />
+const buttonPanel = () => (
+  <div className="mainCalc">
       <div className="button-row">
-        <Button label="Clear" />
-        <Button label="Delete" />
+        <Button label="AC" />
+        <Button label="<" />
         <Button label="." />
-        <Button label="/" />
+        <Button label="÷" />
       </div>
       <div className="button-row">
         <Button label="7" />
         <Button label="8" />
         <Button label="9" />
-        <Button label="*" />
+        <Button label="X" />
       </div>
       <div className="button-row">
         <Button label="4" />
@@ -37,8 +32,7 @@ const Calculator = () => (
         <Button label="=" />
       </div>
     </div>
-  </div>
 );
 
 // Export Calculator Component.
-export default Calculator;
+export default buttonPanel;

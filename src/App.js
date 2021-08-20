@@ -1,12 +1,12 @@
 import './App.css';
 import React from 'react';
-import Calculator from './calculator';
+import buttonPanel from './buttonPanel';
 
 function App() {
   return (
-    <div className="App">
-      <Calculator />
-    </div>
+    <react.fragment>
+      <buttonPanel />
+    </react.fragment>
   );
 }
 
