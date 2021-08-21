@@ -7,23 +7,21 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: null,
-      next: null,
-      operation: null,
+      total: '',
+      next: '',
+      operation: '',  // eslint-disable-line
     };
-    this.handleClick = (buttonName) => {
-      // eslint-disable-next-line react/no-access-state-in-setstate
-      const res = calculate(this.state, buttonName);
-      this.setState({ total: res.total, next: res.next, operation: res.operation });
-    };
-    this.handleClick = this.handleClick.bind(this);
   }
 
+  handleClick = (buttonName) => {
+    this.setState((prevState) => calculate(prevState, buttonName));
+  };
+
   render() {
-    const { total } = this.state;
+    const { total, next } = this.state;
     return (
       <>
-        <Display total={total} />
+        <Display total={total} next={next} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );

@@ -10,8 +10,8 @@ const operate = (numberOne, numberTwo, operation) => {
     return ONE.minus(TWO).toString();
   } if (operation === '÷') {
     return ONE.div(TWO).toString();
-  } if (operation === 'x') {
-    return ONE.times(TWO).toString;
+  } if (operation === 'X') {
+    return ONE.times(TWO).toString();
   } if (operation === '%') {
     return ONE.mod(TWO).toString();
   }
