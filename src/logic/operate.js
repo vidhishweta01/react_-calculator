@@ -8,14 +8,14 @@ const operate = (numberOne, numberTwo, operation) => {
     return ONE.plus(TWO).toString();
   } if (operation === '-') {
     return ONE.minus(TWO).toString();
-  } if (operation === '÷') {
+  } if (operation === '÷' && !(TWO > -1 && TWO < 1)) {
     return ONE.div(TWO).toString();
   } if (operation === 'X') {
     return ONE.times(TWO).toString();
-  } if (operation === '%') {
+  } if (operation === '%' && !(TWO > -1 && TWO < 1)) {
     return ONE.mod(TWO).toString();
   }
-  throw Error(`failing operation: ${operation}`);
+  return ('Error');
 };
 
 export default operate;
