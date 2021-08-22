@@ -9,7 +9,7 @@
 - React
 
 ## live link
-https://calculator-reac.herokuapp.com/ 
+hopeful-mcclintock-9f3650.netlify.app
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps on the command line.
