@@ -1,40 +1,45 @@
 import React from 'react';
+import propTypes from 'prop-types';
 import Button from '../button';
 import styles from './buttonPanel.module.css';
 
-const Calculator = () => (
+const Calculator = ({ clickHandler }) => (
   <div className="mainCalc">
     <div className={styles.button_row}>
-      <Button label="AC" />
-      <Button label="+/-" />
-      <Button label="%" />
-      <Button label="÷" />
+      <Button handleClick={clickHandler} label="AC" />
+      <Button handleClick={clickHandler} label="+/-" />
+      <Button handleClick={clickHandler} label="%" />
+      <Button handleClick={clickHandler} label="÷" />
     </div>
     <div className={styles.button_row}>
-      <Button label="7" />
-      <Button label="8" />
-      <Button label="9" />
-      <Button label="x" />
+      <Button handleClick={clickHandler} label="7" />
+      <Button handleClick={clickHandler} label="8" />
+      <Button handleClick={clickHandler} label="9" />
+      <Button handleClick={clickHandler} label="X" />
     </div>
     <div className={styles.button_row}>
-      <Button label="4" />
-      <Button label="5" />
-      <Button label="6" />
-      <Button label="-" />
+      <Button handleClick={clickHandler} label="4" />
+      <Button handleClick={clickHandler} label="5" />
+      <Button handleClick={clickHandler} label="6" />
+      <Button handleClick={clickHandler} label="-" />
     </div>
     <div className={styles.button_row}>
-      <Button label="1" />
-      <Button label="2" />
-      <Button label="3" />
-      <Button label="+" />
+      <Button handleClick={clickHandler} label="1" />
+      <Button handleClick={clickHandler} label="2" />
+      <Button handleClick={clickHandler} label="3" />
+      <Button handleClick={clickHandler} label="+" />
     </div>
     <div className={styles.button_row}>
-      <Button label="0" />
-      <Button label="." />
-      <Button label="=" />
+      <Button handleClick={clickHandler} label="0" />
+      <Button handleClick={clickHandler} label="." />
+      <Button handleClick={clickHandler} label="=" />
     </div>
   </div>
 );
+
+Calculator.propTypes = {
+  clickHandler: propTypes.func.isRequired,
+};
 
 // Export Calculator Component.
 export default Calculator;
