@@ -15,7 +15,7 @@ const operate = (numberOne, numberTwo, operation) => {
   } if (operation === '%' && !(TWO > -1 && TWO < 1)) {
     return ONE.mod(TWO).toString();
   }
-  return ('Error');
+  return ('something went wrong');
 };
 
 export default operate;
