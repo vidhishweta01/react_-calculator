@@ -9,7 +9,7 @@
 - React
 
 ## live link
-hopeful-mcclintock-9f3650.netlify.app
+ https://deploy-preview-7--hopeful-mcclintock-9f3650.netlify.app
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps on the command line.
