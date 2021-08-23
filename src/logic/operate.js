@@ -3,8 +3,9 @@ import Big from 'big.js';
 const operate = (numberOne, numberTwo, operation) => {
   const ONE = Big(numberOne);
   const TWO = Big(numberTwo);
-  if (operation === '%' && !(TWO > -1 && TWO < 1)) {
-    return ((ONE.div(100)).times(TWO).toString());
+  if (operation === '%') {
+    const res = TWO.times(ONE.div(100));
+    return (res.toString());
   } if (operation === '+') {
     return ONE.plus(TWO).toString();
   } if (operation === '-') {
