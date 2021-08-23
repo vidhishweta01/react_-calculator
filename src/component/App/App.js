@@ -8,7 +8,6 @@ const App = () => {
 
   const handleClick = (buttonName) => {
     const res = calculate({ total, next, operation }, buttonName);
-    console.log(res);
     setObj({ total: res.total, next: res.next, operation: res.operation });
   };
 
