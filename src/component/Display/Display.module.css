@@ -1,8 +1,10 @@
 .h1 {
-  font-size: x-large;
-  text-align: center;
+  font-size: xx-large;
   height: 60px;
-  border: 2px solid grey;
-  background-color: rgb(239, 245, 245);
+  text-align: right;
+  padding-right: 1vw;
+  border: 2px solid #d1d1d1;
+  background-color: rgb(131, 134, 134);
   margin-bottom: 0;
+  color: white;
 }
