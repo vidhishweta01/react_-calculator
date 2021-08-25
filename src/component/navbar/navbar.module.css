@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head {
+  margin: 0;
+  margin-left: 2vw;
+}
+
+.links > * {
+  padding: 10px;
+}
+
+.mid_link {
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
