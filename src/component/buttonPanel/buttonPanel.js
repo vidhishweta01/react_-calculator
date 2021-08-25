@@ -31,7 +31,7 @@ const Calculator = ({ clickHandler }) => (
     </div>
     <div className={styles.button_row}>
       <Button handleClick={clickHandler} color="gray" label="0" />
-      <Button handleClick={clickHandler} color="gray" label="." />
+      <Button handleClick={clickHandler} color="gray" width="double" label="." />
       <Button handleClick={clickHandler} label="=" />
     </div>
   </div>
