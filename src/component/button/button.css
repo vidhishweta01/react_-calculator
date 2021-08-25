@@ -1,0 +1,21 @@
+.button {
+  height: 100px;
+  border: 1px solid #000;
+  font-size: x-large;
+}
+
+.NormalSize {
+  width: 25%;
+}
+
+.DoupleSize {
+  width: 50%;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.gray {
+  background-color: #e0e0e0;
+}

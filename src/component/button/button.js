@@ -1,10 +1,10 @@
 import propTypes from 'prop-types';
-import styles from './button.module.css';
+import './button.css';
 
-const Button = ({ label, handleClick }) => {
+const Button = ({ label, handleClick, color }) => {
   const clickHandler = () => handleClick(label);
   return (
-    <button type="button" className={styles.button} onClick={clickHandler}>
+    <button type="button" className={`button ${color}`} onClick={clickHandler}>
       {label}
     </button>
   );
@@ -13,6 +13,11 @@ const Button = ({ label, handleClick }) => {
 Button.propTypes = {
   label: propTypes.string.isRequired,
   handleClick: propTypes.func.isRequired,
+  color: propTypes.string,
+};
+
+Button.defaultProps = {
+  color: 'orange',
 };
 
 export default Button;

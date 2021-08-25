@@ -6,32 +6,32 @@ import styles from './buttonPanel.module.css';
 const Calculator = ({ clickHandler }) => (
   <div className="mainCalc">
     <div className={styles.button_row}>
-      <Button handleClick={clickHandler} label="AC" />
-      <Button handleClick={clickHandler} label="+/-" />
-      <Button handleClick={clickHandler} label="%" />
+      <Button handleClick={clickHandler} color="gray" label="AC" />
+      <Button handleClick={clickHandler} color="gray" label="+/-" />
+      <Button handleClick={clickHandler} color="gray" label="%" />
       <Button handleClick={clickHandler} label="÷" />
     </div>
     <div className={styles.button_row}>
-      <Button handleClick={clickHandler} label="7" />
-      <Button handleClick={clickHandler} label="8" />
-      <Button handleClick={clickHandler} label="9" />
+      <Button handleClick={clickHandler} color="gray" label="7" />
+      <Button handleClick={clickHandler} color="gray" label="8" />
+      <Button handleClick={clickHandler} color="gray" label="9" />
       <Button handleClick={clickHandler} label="X" />
     </div>
     <div className={styles.button_row}>
-      <Button handleClick={clickHandler} label="4" />
-      <Button handleClick={clickHandler} label="5" />
-      <Button handleClick={clickHandler} label="6" />
+      <Button handleClick={clickHandler} color="gray" label="4" />
+      <Button handleClick={clickHandler} color="gray" label="5" />
+      <Button handleClick={clickHandler} color="gray" label="6" />
       <Button handleClick={clickHandler} label="-" />
     </div>
     <div className={styles.button_row}>
-      <Button handleClick={clickHandler} label="1" />
-      <Button handleClick={clickHandler} label="2" />
-      <Button handleClick={clickHandler} label="3" />
+      <Button handleClick={clickHandler} color="gray" label="1" />
+      <Button handleClick={clickHandler} color="gray" label="2" />
+      <Button handleClick={clickHandler} color="gray" label="3" />
       <Button handleClick={clickHandler} label="+" />
     </div>
     <div className={styles.button_row}>
-      <Button handleClick={clickHandler} label="0" />
-      <Button handleClick={clickHandler} label="." />
+      <Button handleClick={clickHandler} color="gray" label="0" />
+      <Button handleClick={clickHandler} color="gray" label="." />
       <Button handleClick={clickHandler} label="=" />
     </div>
   </div>
