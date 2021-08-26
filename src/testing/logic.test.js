@@ -31,7 +31,7 @@ describe('calculate functionality', () => {
     const k = calculate({ total: '30', next: '2', operation: '÷' }, '=');
     expect(k).toStrictEqual({ total: '15', next: null, operation: '' });
   });
-  it('Button name equal to % return the percentage of total and next', () => {
+  it('Button name equal to % return the percentage of total and next otherwise if next or total or operation are null then returns empty object ', () => {
     let k = calculate({ total: '30', next: '200', operation: '%' }, '=');
     expect(k).toStrictEqual({ total: '60', next: null, operation: '' });
     k = calculate({ total: '', next: '', operation: '%' }, '=');
