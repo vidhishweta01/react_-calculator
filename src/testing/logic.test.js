@@ -28,8 +28,10 @@ describe('calculate functionality', () => {
     expect(j).toStrictEqual({ total: '660', next: null, operation: '' });
   });
   it('Button name equal to ÷ return the quotient of total and next', () => {
-    const k = calculate({ total: '30', next: '2', operation: '÷' }, '=');
+    let k = calculate({ total: '30', next: '2', operation: '÷' }, '=');
     expect(k).toStrictEqual({ total: '15', next: null, operation: '' });
+    k = calculate({ total: '30', next: '0', operation: '÷' }, '=');
+    expect(k).toStrictEqual({ total: 'error: cannot devide or mod by zero', next: null, operation: '' });
   });
   it('Button name equal to % return the percentage of total and next otherwise if next or total or operation are null then returns empty object ', () => {
     let k = calculate({ total: '30', next: '200', operation: '%' }, '=');
