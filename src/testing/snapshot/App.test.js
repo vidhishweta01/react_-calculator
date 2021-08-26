@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import App from '../component/App/App';
+import App from '../../component/App/App';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {

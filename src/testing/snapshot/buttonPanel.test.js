@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonPanel from '../component/buttonPanel';
+import ButtonPanel from '../../component/buttonPanel';
 import renderer from 'react-test-renderer';
 
 describe('ButtonPanel component', () => {

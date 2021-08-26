@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Quote from '../component/Quote';
+import Quote from '../../component/Quote';
 import renderer from 'react-test-renderer';
 
 describe('Quote component', () => {

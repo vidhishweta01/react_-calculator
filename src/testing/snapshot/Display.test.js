@@ -1,5 +1,5 @@
 import React from 'react';
-import Display from '../component/Display';
+import Display from '../../component/Display';
 import renderer from 'react-test-renderer';
 
 describe('Display component', () => {
