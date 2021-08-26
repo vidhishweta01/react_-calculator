@@ -82,7 +82,7 @@ export default function calculate(obj, buttonName) {
         total: operate(obj.total, obj.next, obj.operation),
         next: null,
         operation: '',
-      }; 
+      };
     }
     if (j.next && j.operation && j.total) {
       const h = j;

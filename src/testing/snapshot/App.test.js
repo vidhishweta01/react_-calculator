@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import App from '../../component/App/App';
 import renderer from 'react-test-renderer';
+import App from '../../component/App/App';
 
 it('renders correctly', () => {
-    const tree = renderer
-      .create(<BrowserRouter><App /></BrowserRouter>)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+  const tree = renderer
+    .create(<BrowserRouter><App /></BrowserRouter>)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
+});
