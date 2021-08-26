@@ -1,5 +1,5 @@
 ## Calculator App
-"Calculator App" is a signle page application that do basic calculations.
+"Its a math magician website which consist calculator app in one of its page".
 
 ## Built With
 - JavaScript
