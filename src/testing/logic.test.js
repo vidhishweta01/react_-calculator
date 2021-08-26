@@ -27,7 +27,7 @@ describe('calculate functionality', () => {
     const j = calculate({ total: '30', next: '22', operation: 'X' }, '=');
     expect(j).toStrictEqual({ total: '660', next: null, operation: '' });
   });
-  it('Button name equal to ÷ return the quotient of total and next', () => {
+  it('Button name equal to ÷ return the quotient of total and next returns error message if devide by zero', () => {
     let k = calculate({ total: '30', next: '2', operation: '÷' }, '=');
     expect(k).toStrictEqual({ total: '15', next: null, operation: '' });
     k = calculate({ total: '30', next: '0', operation: '÷' }, '=');
