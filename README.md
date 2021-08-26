@@ -31,6 +31,9 @@ To get a local copy up and running follow these simple example steps on the comm
 
 > ### $ npm start 
 
+## run test
+npm test a
+
 ## Author
 
 ### Shweta Srivastava
