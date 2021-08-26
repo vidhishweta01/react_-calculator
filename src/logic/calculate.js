@@ -77,6 +77,13 @@ export default function calculate(obj, buttonName) {
   }
 
   if (buttonName === '=') {
+    if (obj.next && obj.total && obj.operation) {
+      return {
+        total: operate(obj.total, obj.next, obj.operation),
+        next: null,
+        operation: '',
+      };
+    }
     if (j.next && j.operation && j.total) {
       const h = j;
       j = {

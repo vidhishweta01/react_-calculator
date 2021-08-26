@@ -1,5 +1,5 @@
 ## Calculator App
-"Calculator App" is a signle page application that do basic calculations.
+"Its a math magician website which consist calculator app in one of its page".
 
 ## Built With
 - JavaScript
@@ -30,6 +30,9 @@ To get a local copy up and running follow these simple example steps on the comm
 ## Run the server
 
 > ### $ npm start 
+
+## run test
+npm test a
 
 ## Author
 
