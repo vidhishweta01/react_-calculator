@@ -9,7 +9,7 @@
 - React
 
 ## live link
- [Math-Magician] (https://ccalculatorr.herokuapp.com/)
+  [Math-Magician](https://ccalculatorr.herokuapp.com/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps on the command line.
